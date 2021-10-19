@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/prideflagbot/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/prideflagbot/static/js/main.aea2d0ba.chunk.js",
+    "main.js.map": "/prideflagbot/static/js/main.aea2d0ba.chunk.js.map",
+    "runtime-main.js": "/prideflagbot/static/js/runtime-main.1bc97b58.js",
+    "runtime-main.js.map": "/prideflagbot/static/js/runtime-main.1bc97b58.js.map",
+    "static/js/2.e4583f7b.chunk.js": "/prideflagbot/static/js/2.e4583f7b.chunk.js",
+    "static/js/2.e4583f7b.chunk.js.map": "/prideflagbot/static/js/2.e4583f7b.chunk.js.map",
+    "static/js/3.d5010218.chunk.js": "/prideflagbot/static/js/3.d5010218.chunk.js",
+    "static/js/3.d5010218.chunk.js.map": "/prideflagbot/static/js/3.d5010218.chunk.js.map",
+    "index.html": "/prideflagbot/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/prideflagbot/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.e4583f7b.chunk.js.LICENSE.txt": "/prideflagbot/static/js/2.e4583f7b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/prideflagbot/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1bc97b58.js",
+    "static/js/2.e4583f7b.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.aea2d0ba.chunk.js"
+  ]
+}
