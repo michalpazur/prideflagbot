@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/prideflagbot/static/js/main.64002055.chunk.js",
-    "main.js.map": "/prideflagbot/static/js/main.64002055.chunk.js.map",
-    "runtime-main.js": "/prideflagbot/static/js/runtime-main.c4ea66ec.js",
-    "runtime-main.js.map": "/prideflagbot/static/js/runtime-main.c4ea66ec.js.map",
-    "static/js/2.0106f266.chunk.js": "/prideflagbot/static/js/2.0106f266.chunk.js",
-    "static/js/2.0106f266.chunk.js.map": "/prideflagbot/static/js/2.0106f266.chunk.js.map",
+    "main.js": "/prideflagbot/static/js/main.be65f5da.chunk.js",
+    "main.js.map": "/prideflagbot/static/js/main.be65f5da.chunk.js.map",
+    "runtime-main.js": "/prideflagbot/static/js/runtime-main.9a6c0fb6.js",
+    "runtime-main.js.map": "/prideflagbot/static/js/runtime-main.9a6c0fb6.js.map",
+    "static/js/2.0555de27.chunk.js": "/prideflagbot/static/js/2.0555de27.chunk.js",
+    "static/js/2.0555de27.chunk.js.map": "/prideflagbot/static/js/2.0555de27.chunk.js.map",
     "index.html": "/prideflagbot/index.html",
-    "static/js/2.0106f266.chunk.js.LICENSE.txt": "/prideflagbot/static/js/2.0106f266.chunk.js.LICENSE.txt",
+    "static/js/2.0555de27.chunk.js.LICENSE.txt": "/prideflagbot/static/js/2.0555de27.chunk.js.LICENSE.txt",
     "static/media/icon.6d1c8638.jpg": "/prideflagbot/static/media/icon.6d1c8638.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4ea66ec.js",
-    "static/js/2.0106f266.chunk.js",
-    "static/js/main.64002055.chunk.js"
+    "static/js/runtime-main.9a6c0fb6.js",
+    "static/js/2.0555de27.chunk.js",
+    "static/js/main.be65f5da.chunk.js"
   ]
 }
