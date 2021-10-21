@@ -56,6 +56,13 @@ const Wrapper = ({ children }) => {
               }),
             },
           },
+          MuiLink: {
+            root: {
+              fontFamily: ['"IBM Plex Sans"', "Roboto", "sans-serif"].join(
+                ", "
+              ),
+            },
+          },
           MuiButton: {
             sizeSmall: {
               padding: "5px 10px",

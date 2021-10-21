@@ -1,4 +1,4 @@
-import { createStore, combineReducers, applyMiddleware } from "redux";
+import { createStore, combineReducers } from "redux";
 import { devToolsEnhancer } from "redux-devtools-extension";
 import _ from "lodash";
 
