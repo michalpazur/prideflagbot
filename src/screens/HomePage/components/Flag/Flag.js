@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     padding: "20px",
+    [theme.breakpoints.down(350)]: {
+      padding: "20px 10px",
+    },
     "&:not(:last-of-type)": {
       marginBottom: "20px",
     },
