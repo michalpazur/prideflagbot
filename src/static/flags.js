@@ -106,7 +106,7 @@ export const flags = [
 	{ name: "trixic pride flag", flag: require("./flags/trixic pride flag.png")},
 	{ name: "twink pride flag", flag: require("./flags/twink pride flag.png")},
 	{ name: "unlabeled pride flag", flag: require("./flags/unlabeled pride flag.png")},
-	{ name: "usa pride flag", flag: require("./flags/usa pride flag.png")},
+	{ name: "USA pride flag", flag: require("./flags/usa pride flag.png")},
 	{ name: "vampiregender pride flag", flag: require("./flags/vampiregender pride flag.png")},
 	{ name: "vincian pride flag", flag: require("./flags/vincian pride flag.png")},
 	{ name: "wolfgender pride flag", flag: require("./flags/wolfgender pride flag.png")},

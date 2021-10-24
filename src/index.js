@@ -69,6 +69,11 @@ const Wrapper = ({ children }) => {
               minWidth: "unset",
             },
           },
+          MuiOutlinedInput: {
+            root: {
+              backgroundColor: theme === "light" ? "#FFFFFF" : "#0A1929",
+            },
+          },
         },
       }),
     [theme]

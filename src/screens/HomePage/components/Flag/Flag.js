@@ -1,13 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import Card from "@material-ui/core/Card";
-import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import Zoom from "@material-ui/core/Zoom";
 import CopyIcon from "@material-ui/icons/AddToPhotosRounded";
 import DoneIcon from "@material-ui/icons/DoneRounded";
 import { makeStyles } from "@material-ui/core/styles";
-import capitalize from "../../util/capitalize";
+import { capitalize } from "../../../../util/capitalize";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,11 +60,11 @@ const Flag = ({ flag }) => {
   return (
     <Card elevation={3} className={classes.root}>
       <img src={flag.flag.default} alt={flag.name} className={classes.image} />
-      <Typography className={classes.name}>{flag.name}</Typography>
+      <Typography className={classes.name}>{capitalize(flag.name)}</Typography>
       <IconButton
         onClick={() => handleCopy()}
         className={classes.iconButton}
-        ariaLabel={
+        aria-label={
           copied
             ? "Flag name has been copied to clipboard"
             : `Copy ${flag.name} to clipboard`
