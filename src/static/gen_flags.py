@@ -1,4 +1,5 @@
 import os
+import re
 from PIL import Image
 
 def thumbnail(f_name):
@@ -21,7 +22,7 @@ file_content = "export const flags = [\n"
 
 for f_name in os.listdir("src/static/flags"):
   org_file_name = f_name
-  f_name = f_name.replace(".jpg", "").replace(".png", "")
+  f_name = re.sub(r"\.(jpg|png)", "", f_name, 0, re.IGNORECASE)
   thumbnail(org_file_name)
   file_content += "\t{" + " name: \"{}\", flag: require(\"./flags/{}\")".format(f_name, org_file_name) + "},\n"
 
