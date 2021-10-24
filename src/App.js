@@ -7,6 +7,7 @@ import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import ArrowUp from "@material-ui/icons/ArrowUpwardRounded";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./screens/HomePage/HomePage";
+import FAQ from "./screens/FAQ/FAQ";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -50,6 +51,9 @@ const App = () => {
       <div className={classes.root}>
         <div className={classes.innerRoot}>
           <Switch>
+            <Route path="/faq">
+              <FAQ />
+            </Route>
             <Route path="/">
               <HomePage />
             </Route>
