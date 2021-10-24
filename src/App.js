@@ -2,6 +2,7 @@ import React from "react";
 import Toolbar from "./components/Toolbar/Toolbar";
 import { makeStyles } from "@material-ui/core/styles";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import HomePage from "./screens/HomePage/HomePage";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,7 +26,9 @@ const App = () => {
       <div className={classes.root}>
         <div className={classes.innerRoot}>
           <Switch>
-            <Route path="/"></Route>
+            <Route path="/">
+              <HomePage />
+            </Route>
           </Switch>
         </div>
       </div>
